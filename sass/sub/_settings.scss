@@ -1,0 +1,32 @@
+$icons: entypo;
+$base-font: "Open Sans", sans-serif;
+$heading-font: "Oswald", serif;
+
+$primary-color: #d04526;
+$light-color: #999;
+$white: #fff;
+$black: #000;
+
+$width: 80%;
+$gutter: 10px;
+
+$full: 100%; // 1 column
+$half: $full / 2; // 2 columns
+$third: $full / 3; // 3 columns
+$two-thirds: $third * 2; // 1 wide column & 1 narrow column
+$quarter: $full / 4; // 4 columns
+
+$font-size: 16px;
+$large: $font-size * 3;
+$small: $font-size * .8;
+
+@font-face {
+  font-family: '#{$icons}';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/icons/#{$icons}.eot);
+  src: url('../fonts/icons/#{$icons}.eot?#iefix') format('ie9-skip-eot'),
+       url('../fonts/icons/#{$icons}.woff') format('woff'),
+       url('../fonts/icons/#{$icons}.ttf')  format('truetype');
+}
+
