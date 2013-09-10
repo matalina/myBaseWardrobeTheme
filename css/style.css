@@ -1,5 +1,6 @@
 @charset "IBM437";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Oswald);
+@import url(http://yandex.st/highlightjs/7.3/styles/tomorrow-night-bright.min.css);
 @font-face {
   font-family: "entypo";
   font-style: normal;
@@ -3913,7 +3914,7 @@ h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hov
 /* line 22, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_theme.scss */
 header {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 12.5%;
   margin: 0 auto;
 }
 /* line 12, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_layout.scss */
@@ -3946,7 +3947,7 @@ header h1 a {
 /* line 38, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_theme.scss */
 nav {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 12.5%;
   margin: 0 auto;
 }
 /* line 12, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_layout.scss */
@@ -3988,7 +3989,7 @@ nav ul li a:hover, nav ul li a:focus {
 /* line 63, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_theme.scss */
 main {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 12.5%;
   margin: 0 auto;
 }
 /* line 12, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_layout.scss */
@@ -4074,7 +4075,7 @@ main section .pagination ul li a {
 /* line 136, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_theme.scss */
 footer {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 12.5%;
   margin: 0 auto;
 }
 /* line 12, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/sub/_layout.scss */
@@ -4097,4 +4098,13 @@ footer p {
     width: 100% !important;
     float: none;
   }
+}
+
+/* line 9, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/style.scss */
+.social-icons {
+  text-align: center;
+}
+/* line 12, C:/xampp/htdocs/sandbox/wardrobe/public/themes/basic/sass/style.scss */
+.social-icons .chicklets {
+  text-indent: -9999em;
 }

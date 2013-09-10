@@ -16,10 +16,12 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{ wardrobe_url('/') }}">{{ site_title() }}</a></h1>
+        <h1><a href="{{ wardrobe_url('/') }}"><img src="{{ theme_path('images/logo.png') }}" alt="{{ site_title() }}"/></a></h1>
     </header>
     <nav>
         <ul>
+            <li><i class="icon-twitter"></i> <a href="http://twitter.com/matalina">Twitter</a></li>
+            <li><i class="icon-facebook"></i> <a href="http://facebook.com/alicia.wilkerson">Facebook</a></li>
             <li><i class="icon-rss"></i> <a href="{{ wardrobe_url('rss') }}">RSS</a></li>
         </ul>
     </nav>
@@ -29,5 +31,10 @@
     <footer>
         <p>Powered by <a href="http://wardrobecms.com">Wardrobe</a></p>
     </footer>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "411e902f-3af0-4b8a-919f-daf1dbee5a40", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>
+    <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
