@@ -10,3 +10,7 @@ A basic responsive HTML5 theme using SCSS and Compass to create an easily modifi
 ## Screeshot
 
 ![screenshot.png](screenshot.png)
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
